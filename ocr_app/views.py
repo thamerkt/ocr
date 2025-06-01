@@ -293,15 +293,7 @@ from confluent_kafka import Producer, Consumer, KafkaException
 logger = logging.getLogger(__name__)
 
 # Kafka Configuration with optimizations
-producer_config = {
-    'bootstrap.servers': settings.KAFKA_BROKER_URL,
-    'queue.buffering.max.messages': 100000,  # Increased queue size
-    'queue.buffering.max.ms': 200,  # Reduce buffering time
-    'compression.type': 'lz4',  # Enable compression
-    'batch.num.messages': 10000,  # Larger batches
-    'linger.ms': 20,  # Wait up to 20ms for batching
-    'message.max.bytes': 10000000  # 10MB max message size
-}
+
 def publish_identity_verification_event(request):
     if request.method != 'POST':
         return JsonResponse({'error': 'Invalid request method. Only POST is allowed.'}, status=405)
