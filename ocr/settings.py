@@ -84,16 +84,7 @@ CORS_ALLOW_HEADERS = [
     "content-type",
     "x-requested-with",
 ]
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ.get('PGDATABASE', 'account_db_kpsn'),  # fallback to your DB name
-        'USER': os.environ.get('PGUSER', 'thamer'),               # fallback username
-        'PASSWORD': os.environ.get('PGPASSWORD'),                  # *must be set in env*
-        'HOST': os.environ.get('PGHOST', 'dpg-d0tflpqdbo4c739ks99g-a'),  # your internal hostname
-        'PORT': os.environ.get('PGPORT', '5432'),                  # default postgres port
-    }
-}
+
 
 TEMPLATES = [
     {
@@ -120,14 +111,13 @@ WSGI_APPLICATION = 'ocr.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('DATABASE_NAME', 'ocr_db'),  # Default to 'ocr_db' if not set
-        'USER': os.getenv('DATABASE_USER', 'thamer'),  # Default to 'thamer' if not set
-        'PASSWORD': os.getenv('DATABASE_PASSWORD', 'thamer4a'),  # Default to 'thamer4a' if not set
-        'HOST': os.getenv('DATABASE_HOST', 'db'),  # Docker service name 'db'
-        'PORT': os.getenv('DATABASE_PORT', '5432'),  # PostgreSQL default port
+        'NAME': os.environ.get('PGDATABASE', 'account_db_kpsn'),  # fallback to your DB name
+        'USER': os.environ.get('PGUSER', 'thamer'),               # fallback username
+        'PASSWORD': os.environ.get('PGPASSWORD'),                  # *must be set in env*
+        'HOST': os.environ.get('PGHOST', 'dpg-d0tflpqdbo4c739ks99g-a'),  # your internal hostname
+        'PORT': os.environ.get('PGPORT', '5432'),                  # default postgres port
     }
 }
-
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
