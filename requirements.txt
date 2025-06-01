@@ -16,4 +16,5 @@ webdriver-manager
 beautifulsoup4
 celery
 redis
+pika
 
