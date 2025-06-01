@@ -1,0 +1,50 @@
+version: "3.8"  # Ensure compatibility with service_healthy
+
+services:
+  web:
+    build: .
+    container_name: ocr_service
+    networks:
+      - my_network
+    ports:
+      - "8014:8000"
+    depends_on:
+      db:
+        condition: service_healthy  # Ensures DB is ready before starting web
+    environment:
+      DJANGO_SETTINGS_MODULE: ocr.settings
+      DATABASE_NAME: ocr_db
+      DATABASE_USER: thamer
+      DATABASE_PASSWORD: thamer4a
+      DATABASE_HOST: db
+      DATABASE_PORT: 5432  # Ensure Django connects to PostgreSQL correctly
+    volumes:
+      - .:/app
+    restart: always
+
+  db:
+    image: postgres:13
+    container_name: postgres-ocr
+
+    networks:
+      - my_network
+    ports:
+      - "5444:5432"  # Host maps 5433 to 5432 inside the container
+    environment:
+      POSTGRES_DB: ocr_db
+      POSTGRES_USER: thamer
+      POSTGRES_PASSWORD: thamer4a
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: always
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U thamer -d ocr_db"]
+      interval: 10s
+      retries: 5
+      start_period: 10s
+
+networks:
+  my_network:
+
+volumes:
+  postgres_data:
