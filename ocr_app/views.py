@@ -64,17 +64,7 @@ def get_ip(request):
     else:
         return JsonResponse({"error": "Method not allowed"}, status=405)
 
-# Kafka Configuration
-producer_config = {'bootstrap.servers': settings.KAFKA_BROKER_URL}
-producer = Producer(producer_config)
 
-consumer_config = {
-    'bootstrap.servers': settings.KAFKA_BROKER_URL,
-    'group.id': 'identity_group',
-    'auto.offset.reset': 'earliest'
-}
-consumer = Consumer(consumer_config)
-consumer.subscribe([settings.KAFKA_IDENTITY_VERIFICATION_TOPIC])
 
 # Utility Functions
 def delivery_report(err, msg):
@@ -84,13 +74,7 @@ def delivery_report(err, msg):
     else:
         logger.info(f"✅ Message delivered to {msg.topic()} [{msg.partition()}] at offset {msg.offset()}")
 
-def publish_event(topic, data):
-    """Publish an event to Kafka"""
-    try:
-        producer.produce(topic, key="identity", value=json.dumps(data), callback=delivery_report)
-        producer.flush()
-    except Exception as e:
-        logger.error(f"Error publishing to Kafka: {str(e)}")
+
 
 def handle_file_upload(file):
     """Helper function to handle file uploads consistently"""
@@ -147,83 +131,9 @@ def send_failure_email(email, reason):
     logger.error(f"❌ {reason}")
     send_verification_email(email, False)
 
-# Main event consumption function
-def consume_events(batch_size=100, timeout_ms=100):
-    consumer = Consumer(consumer_config)
-    consumer.subscribe([settings.KAFKA_IDENTITY_VERIFICATION_TOPIC])
-
-    stats = {
-        'total_processed': 0, 'last_report_time': time.time(),
-        'batch_times': [], 'success_count': 0, 'error_count': 0,
-        'last_batch_size': 0
-    }
-    batch = []
-
-    try:
-        while True:
-            msg = consumer.poll(timeout=timeout_ms / 1000)
-            if msg is None:
-                if batch:
-                    _process_and_commit(consumer, batch, stats)
-                    batch = []
-                continue
-
-            if msg.error():
-                if msg.error().code() != KafkaException._PARTITION_EOF:
-                    logger.error(f"Kafka error: {msg.error()}")
-                    stats['error_count'] += 1
-                continue
-
-            try:
-                event_data = json.loads(msg.value().decode('utf-8'))
-                batch.append(event_data)
-                stats['total_processed'] += 1
-
-                if len(batch) >= batch_size:
-                    _process_and_commit(consumer, batch, stats)
-                    batch = []
-
-                if _should_report(stats):
-                    print_progress(stats)
-                    stats['last_report_time'] = time.time()
-
-            except Exception as e:
-                logger.exception(f"❌ Failed to decode/process message: {e}")
-                stats['error_count'] += 1
-
-    finally:
-        if batch:
-            _process_and_commit(consumer, batch, stats)
-        print_progress(stats, final=True)
-        consumer.close()
 
 
-def process_batch(batch, stats):
-    start = time.time()
-    success, fail = 0, 0
-    stats['last_batch_size'] = len(batch)
 
-    for event_data in batch:
-        try:
-            image = event_data.get('image_name', 'Unknown')
-            selfie = event_data.get('selfie_name', 'Unknown')
-            logger.info(f"📥 Verifying identity for ID: {image} and selfie: {selfie}")
-
-            if not _verify(event_data): fail += 1
-            else: success += 1
-
-        except Exception as e:
-            logger.exception(f"❌ Error processing event: {e}")
-            send_failure_email('kthirithamer1@gmail.com', f"Processing error for event: {e}")
-            fail += 1
-
-    stats['batch_times'].append(time.time() - start)
-    stats['success_count'] += success
-    stats['error_count'] += fail
-
-    logger.info(f"✅ Batch summary | Size: {len(batch)} | Success: {success} | Fail: {fail} | Time: {time.time() - start:.2f}s")
-
-logger = logging.getLogger(__name__)
 
 def _verifyy(image_path, keycloak_user):
     """Verifies identity based on saved file paths and keycloak user."""
@@ -300,31 +210,7 @@ def _verify(event_data):
         return False
 
 
-def _process_and_commit(consumer, batch, stats):
-    process_batch(batch, stats)
-    consumer.commit(asynchronous=False)
 
-def _should_report(stats):
-    return (time.time() - stats['last_report_time'] > 5) or (stats['total_processed'] % 100 == 0)
-
-def print_progress(stats, final=False):
-    elapsed = time.time() - stats['last_report_time']
-    avg_batch_time = sum(stats['batch_times']) / len(stats['batch_times']) if stats['batch_times'] else 0
-    msg_rate = stats['total_processed'] / elapsed if elapsed else 0
-
-    logger.info(
-        f"\n{'='*40}\n"
-        f"{'FINAL ' if final else ''}PROGRESS REPORT\n"
-        f"{'='*40}\n"
-        f"Total: {stats['total_processed']} | "
-        f"Success: {stats['success_count']} | Errors: {stats['error_count']}\n"
-        f"Rate: {msg_rate:.2f} msg/sec | Avg Batch Time: {avg_batch_time:.2f}s | "
-        f"Last Batch Size: {stats['last_batch_size']}\n"
-        f"{'='*40}\n"
-    )
-
-# Start consumer thread
-threading.Thread(target=consume_events, daemon=True, name="KafkaConsumer").start()
 
 # ViewSets
 class DocumentTypeViewSet(viewsets.ModelViewSet):
