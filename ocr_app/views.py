@@ -444,12 +444,15 @@ def generate_qr(request):
     try:
         body = json.loads(request.body)
         user = body.get('user')
-        local_ip = get_local_ip()
+        local_ip = get_local_ip()  # Assuming this returns something like '192.168.1.120'
+
         if not user:
             return JsonResponse({"error": "User ID is required."}, status=400)
 
         write_to_env()
-        verification_link = f"https://frontendd-ywsd.onrender.com/register/identity-verification/verification/document-type/:{user}/192.168.1.120"
+
+        # Correctly format the link using the actual user and IP values
+        verification_link = f"https://frontendd-ywsd.onrender.com/register/identity-verification/verification/document-type/{user}/{local_ip}"
 
         qr = qrcode.make(verification_link)
         buffer = io.BytesIO()
