@@ -449,7 +449,7 @@ def generate_qr(request):
             return JsonResponse({"error": "User ID is required."}, status=400)
 
         write_to_env()
-        verification_link = f"http://192.168.1.120:5173/register/identity-verification/verification/document-type/:{user}/192.168.1.120"
+        verification_link = f"https://frontendd-ywsd.onrender.com/register/identity-verification/verification/document-type/:{user}/192.168.1.120"
 
         qr = qrcode.make(verification_link)
         buffer = io.BytesIO()
