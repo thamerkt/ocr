@@ -358,11 +358,11 @@ def publish_identity_verification_event(request):
             params = pika.URLParameters(amqp_url)
             params.heartbeat = 600
             params.blocked_connection_timeout = 300
-        
+
             connection = pika.BlockingConnection(params)
             channel = connection.channel()
             channel.queue_declare(queue='identity_verification_queue', durable=True)
-        
+
             message = json.dumps(event_data)
             channel.basic_publish(
                 exchange='',
@@ -374,12 +374,13 @@ def publish_identity_verification_event(request):
             )
             connection.close()
             print("Message published to RabbitMQ.")
+
+            # Optional: Send a success email
+            send_verification_email('kthirithamer1@gmail.com', True)
+
         except Exception as e:
             logger.error(f"Failed to publish message to RabbitMQ: {str(e)}")
             return JsonResponse({'error': f'Failed to publish to RabbitMQ: {str(e)}'}, status=500)
-        
-                # Optional: Send a success email
-                send_verification_email('kthirithamer1@gmail.com', True)
 
         return JsonResponse({
             'status': 'success',
@@ -397,6 +398,7 @@ def publish_identity_verification_event(request):
         if selfie_name and default_storage.exists(selfie_name):
             default_storage.delete(selfie_name)
         return JsonResponse({'error': f'Error publishing event: {str(e)}'}, status=500)
+
 
 def compare_faces_view(data):
     """Compares the face detected on the ID with the selfie uploaded (Kafka-friendly)."""
