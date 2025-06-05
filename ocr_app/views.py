@@ -452,7 +452,7 @@ def generate_qr(request):
         write_to_env()
 
         # Correctly format the link using the actual user and IP values
-        verification_link = f"frontendd-zxzq.vercel.app/register/identity-verification/verification/document-type/{user}/{local_ip}"
+        verification_link = f"https://frontenddd-voiq.onrender.com/register/identity-verification/verification/document-type/{user}/{local_ip}"
 
         qr = qrcode.make(verification_link)
         buffer = io.BytesIO()
