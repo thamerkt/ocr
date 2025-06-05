@@ -293,7 +293,12 @@ from confluent_kafka import Producer, Consumer, KafkaException
 logger = logging.getLogger(__name__)
 
 # Kafka Configuration with optimizations
+import pika
+import json
+import logging
+from django.http import JsonResponse
 
+logger = logging.getLogger(__name__)
 def publish_identity_verification_event(request):
     if request.method != 'POST':
         return JsonResponse({'error': 'Invalid request method. Only POST is allowed.'}, status=405)
@@ -349,17 +354,15 @@ def publish_identity_verification_event(request):
 
         # ======== Publish to RabbitMQ ============
         try:
-            connection = pika.BlockingConnection(
-                pika.ConnectionParameters(
-                    host='host.docker.internal',
-                    port=5672,
-                    heartbeat=600,
-                    blocked_connection_timeout=300
-                )
-            )
+            amqp_url = "amqps://dxapqekt:BbFWQ0gUl1O8u8gHIUV3a4KLZacyrzWt@possum.lmq.cloudamqp.com/dxapqekt"
+            params = pika.URLParameters(amqp_url)
+            params.heartbeat = 600
+            params.blocked_connection_timeout = 300
+        
+            connection = pika.BlockingConnection(params)
             channel = connection.channel()
             channel.queue_declare(queue='identity_verification_queue', durable=True)
-
+        
             message = json.dumps(event_data)
             channel.basic_publish(
                 exchange='',
@@ -374,9 +377,9 @@ def publish_identity_verification_event(request):
         except Exception as e:
             logger.error(f"Failed to publish message to RabbitMQ: {str(e)}")
             return JsonResponse({'error': f'Failed to publish to RabbitMQ: {str(e)}'}, status=500)
-
-        # Optional: Send a success email
-        send_verification_email('kthirithamer1@gmail.com', True)
+        
+                # Optional: Send a success email
+                send_verification_email('kthirithamer1@gmail.com', True)
 
         return JsonResponse({
             'status': 'success',
