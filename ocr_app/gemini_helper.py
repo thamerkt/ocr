@@ -25,7 +25,7 @@ Given the detected text from an identity card, return a well-formatted JSON resp
         "place_of_birth": "<Place of Birth>",
         "issue_date": "<Date of Issue>",
         "expiry_date": "<Date of Expiry>",
-        "face_detected": "<Yes/No>"
+        
     }
 }
 
@@ -62,7 +62,7 @@ Given the detected text from an identity card, return a well-formatted JSON resp
         "place_of_birth": "Moutaa Jemal",
         "issue_date": null,
         "expiry_date": null,
-        "face_detected": "Yes"
+        
     }
 }
 

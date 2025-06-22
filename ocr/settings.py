@@ -49,9 +49,11 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:\Users\ASUS\Downloads\dotted-
 
 
 load_dotenv()
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")  
+GEMINI_API_KEY =os.environ.get("GEMINI_API_KEY") 
 print("GEMINI_API_KEY:", GEMINI_API_KEY)
-
+AWS_ACCESS_KEY_ID = os.environ.get("AWS_ACCESS_KEY_ID")
+AWS_SECRET_ACCESS_KEY = os.environ.get("AWS_SECRET_ACCESS_KEY")
+AWS_DEFAULT_REGION = os.environ.get("AWS_DEFAULT_REGION", "us-east-1")
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -61,12 +63,12 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp-relay.brevo.com'  
-EMAIL_PORT = 587
-EMAIL_HOST_USER = '7e8bcf002@smtp-brevo.com' 
-EMAIL_HOST_PASSWORD = 'tGMsIDKfLYh0vbWS'  
+EMAIL_HOST = os.environ.get("EMAIL_HOST")
+EMAIL_PORT = int(os.environ.get("EMAIL_PORT", 587))
+EMAIL_HOST_USER = os.environ.get("EMAIL_HOST_USER")
+EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD")
 EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = 'kthirithamer2@gmail.com'
+DEFAULT_FROM_EMAIL = os.environ.get("DEFAULT_FROM_EMAIL")
 
 
 
@@ -107,15 +109,14 @@ WSGI_APPLICATION = 'ocr.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ.get('PGDATABASE', 'account_db_kpsn'),  # fallback to your DB name
-        'USER': os.environ.get('PGUSER', 'thamer'),               # fallback username
-        'PASSWORD': os.environ.get('PGPASSWORD'),                  # *must be set in env*
-        'HOST': os.environ.get('PGHOST', 'dpg-d0tflpqdbo4c739ks99g-a'),  # your internal hostname
-        'PORT': os.environ.get('PGPORT', '5432'),                  # default postgres port
+        'NAME': os.environ.get('DATABASE_NAME'),
+        'USER': os.environ.get('DATABASE_USER'),
+        'PASSWORD': os.environ.get('DATABASE_PASSWORD'),
+        'HOST': os.environ.get('DATABASE_HOST'),
+        'PORT': os.environ.get('DATABASE_PORT'),
     }
 }
 # Password validation

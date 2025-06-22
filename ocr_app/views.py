@@ -141,37 +141,46 @@ def _verifyy(image_path, keycloak_user):
         # Extract text from ID image
         detected_text = extract_text_from_image(image_path)
         logger.info(f"Detected text: {detected_text}")
+        print(f"[DEBUG] Detected text from image: {detected_text}")
 
         # Process the extracted text
         processor = GeminiProcessor()
         extracted_data = processor.extract_id_data(detected_text)
-        logger.info(f"Extracted data: {extracted_data}")
+        print(f"[DEBUG] Extracted data from Gemini: {extracted_data}")
 
         # Verify against the provided keycloak_user
-        result = verify_data(keycloak_user,extracted_data)
+        result = verify_data(keycloak_user, extracted_data)
         result_str = result.content.decode('utf-8')
+        print(f"[DEBUG] Verification API raw response: {result_str}")
+
         result_json = json.loads(result_str)
 
         similarity_score = result_json.get('comparison', {}).get('similarity_score')
         logger.info(f"Similarity score: {similarity_score}")
+        print(f"[DEBUG] Similarity score: {similarity_score}")
 
         status = 'failed'
         if similarity_score is not None and similarity_score >= 60:
             status = 'passed'
-            
         else:
             send_verification_email('kthirithamer1@gmail.com', False)
 
-        return {
+        final_result = {
             'status': status,
             'similarity_score': similarity_score,
             'extracted_data': extracted_data
         }
 
+        print(f"[DEBUG] Final verification result: {final_result}")
+        return final_result
+
     except Exception as e:
-        logger.warning(f"⚠️ Verification failed: {e}")
-        send_failure_email('kthirithamer1@gmail.com', f"Verification failed: {e}")
-        raise e  # re-raise exception for handling outside
+        logger.error(f"Verification error: {str(e)}")
+        print(f"[ERROR] Exception during verification: {str(e)}")
+        return {
+            'status': 'failed',
+            'error': str(e)
+        }
 
 
 def _verify(event_data):
@@ -254,7 +263,7 @@ def validate_and_extract_image_data(request):
         # Define required fields
         required_fields = [
             'first_name', 'last_name', 'date_of_birth', 'country', 'type',
-            'id_number', 'father_name', 'place_of_birth', 'face_detected'
+            'id_number', 'father_name', 'place_of_birth'
         ]
 
         # Check for missing fields
@@ -293,7 +302,12 @@ from confluent_kafka import Producer, Consumer, KafkaException
 logger = logging.getLogger(__name__)
 
 # Kafka Configuration with optimizations
+import pika
+import json
+import logging
+from django.http import JsonResponse
 
+logger = logging.getLogger(__name__)
 def publish_identity_verification_event(request):
     if request.method != 'POST':
         return JsonResponse({'error': 'Invalid request method. Only POST is allowed.'}, status=405)
@@ -313,6 +327,7 @@ def publish_identity_verification_event(request):
         selfie_name, selfie_path = handle_file_upload(selfie)
 
         verification_result = _verifyy(image_path, keycloak_user)
+        print("verification_result",verification_result)
         if verification_result.get('status') == 'failed':
             return JsonResponse({
                 'status': 'failed',
@@ -322,6 +337,7 @@ def publish_identity_verification_event(request):
             }, status=400)
 
         face_comparison_result = compare_faces_view({'image_path': image_path, 'selfie_path': selfie_path})
+        print("verification_result",face_comparison_result)
         if 'error' in face_comparison_result:
             return JsonResponse({
                 'status': 'failed',
@@ -349,6 +365,8 @@ def publish_identity_verification_event(request):
 
         # ======== Publish to RabbitMQ ============
         try:
+            queue_name = 'identity_verification_queue'
+
             connection = pika.BlockingConnection(
                 pika.ConnectionParameters(
                     host='host.docker.internal',
@@ -358,25 +376,27 @@ def publish_identity_verification_event(request):
                 )
             )
             channel = connection.channel()
-            channel.queue_declare(queue='identity_verification_queue', durable=True)
+            channel.queue_declare(queue=queue_name, durable=True)
+            print(f"✅ Connected to RabbitMQ and declared queue '{queue_name}'")
 
             message = json.dumps(event_data)
             channel.basic_publish(
                 exchange='',
-                routing_key='identity_verification_queue',
+                routing_key=queue_name,
                 body=message,
                 properties=pika.BasicProperties(
                     delivery_mode=2,  # Make message persistent
                 )
             )
             connection.close()
-            print("Message published to RabbitMQ.")
-        except Exception as e:
-            logger.error(f"Failed to publish message to RabbitMQ: {str(e)}")
-            return JsonResponse({'error': f'Failed to publish to RabbitMQ: {str(e)}'}, status=500)
+            print("✅ Message published to RabbitMQ.")
 
-        # Optional: Send a success email
-        send_verification_email('kthirithamer1@gmail.com', True)
+            # Optional: Send a success email
+            send_verification_email('kthirithamer1@gmail.com', True)
+
+        except Exception as e:
+            logger.error(f"❌ Failed to publish message to RabbitMQ: {str(e)}")
+            return JsonResponse({'error': f'Failed to publish to RabbitMQ: {str(e)}'}, status=500)
 
         return JsonResponse({
             'status': 'success',
@@ -394,6 +414,7 @@ def publish_identity_verification_event(request):
         if selfie_name and default_storage.exists(selfie_name):
             default_storage.delete(selfie_name)
         return JsonResponse({'error': f'Error publishing event: {str(e)}'}, status=500)
+
 
 def compare_faces_view(data):
     """Compares the face detected on the ID with the selfie uploaded (Kafka-friendly)."""
@@ -444,12 +465,15 @@ def generate_qr(request):
     try:
         body = json.loads(request.body)
         user = body.get('user')
-        local_ip = get_local_ip()
+        local_ip = get_local_ip()  # Assuming this returns something like '192.168.1.120'
+
         if not user:
             return JsonResponse({"error": "User ID is required."}, status=400)
 
         write_to_env()
-        verification_link = f"http://192.168.1.120:5173/register/identity-verification/verification/document-type/:{user}/192.168.1.120"
+
+        # Correctly format the link using the actual user and IP values
+        verification_link = f"http://192.168.1.120:5173/register/identity-verification/verification/document-type/{user}/{local_ip}"
 
         qr = qrcode.make(verification_link)
         buffer = io.BytesIO()

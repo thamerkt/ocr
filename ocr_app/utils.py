@@ -8,16 +8,13 @@ import base64
 import hashlib
 import socket
 from django.core.mail import send_mail
-from django.conf import settings
-
-# Load credentials
-
+from django.conf import settings 
 
 import os
 
-AWS_ACCESS_KEY_ID = os.getenv('AWS_ACCESS_KEY_ID')
-AWS_SECRET_ACCESS_KEY = os.getenv('AWS_SECRET_ACCESS_KEY')
-AWS_REGION = os.getenv('AWS_REGION', 'us-east-1')  # Default region fallback
+AWS_ACCESS_KEY_ID = settings.AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY = settings.AWS_SECRET_ACCESS_KEY
+AWS_REGION = settings.AWS_DEFAULT_REGION
 
 
 # Safe Rekognition client

@@ -32167,3 +32167,759 @@ INFO:django.utils.autoreload:Watching for file changes with StatReloader
 INFO:django.utils.autoreload:/app/ocr_app/views.py changed, reloading.
 INFO:django.utils.autoreload:Watching for file changes with StatReloader
 INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr_app/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr_app/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr_app/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr_app/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr/settings.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr/celery_app.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr_app/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr_app/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr_app/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:root:Image uploaded successfully: id_front_1749437444768.jpg
+ERROR:root:Unexpected error processing image: Gemini processing failed: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+ERROR:django.request:Internal Server Error: /ocr/upload-image/
+INFO:root:Image uploaded successfully: id_front_1749437481040.jpg
+ERROR:root:Unexpected error processing image: Gemini processing failed: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+ERROR:django.request:Internal Server Error: /ocr/upload-image/
+INFO:django.utils.autoreload:/app/ocr/settings.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:root:Image uploaded successfully: id_front_1749437814939.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Not Verified
+INFO:root:Image uploaded successfully: id_front_1749437849853.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Not Verified
+INFO:root:Image uploaded successfully: id_front_1749437865243.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Not Verified
+INFO:root:Image uploaded successfully: id_front_1749437885427.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Not Verified
+INFO:root:Image uploaded successfully: id_front_1749437900880.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Not Verified
+INFO:root:Image uploaded successfully: id_front_1749437951199.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Not Verified
+INFO:django.utils.autoreload:/app/ocr/settings.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:root:Image uploaded successfully: id_front_1749438053106.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Not Verified
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:root:Image uploaded successfully: id_front_1750168843178.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Not Verified
+INFO:root:Image uploaded successfully: id_front_1750168898796.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Not Verified
+INFO:root:Image uploaded successfully: id_front_1750169020211.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Not Verified
+INFO:root:Image uploaded successfully: id_front_1750169070220.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Not Verified
+INFO:root:Image uploaded successfully: id_front_1750169105625.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Not Verified
+INFO:django.utils.autoreload:/app/ocr/settings.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr_app/utils.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr_app/utils.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:root:Image uploaded successfully: id_front_1750169577508.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Verified
+INFO:ocr_app.views:Detected text: ['0', 'suppr', 'unser', '-', 'الجمهو الله التو نسية', 'بطاقة التعريف الوطنية', '14433533', 'النقب الكثيري', 'الاسم ناصر', 'بن كمال بن علي', '12 جوان 2003', 'كاتيا زهرة مدين', '0', 'suppr', 'unser', '-', 'الجمهو', 'الله', 'التو', 'نسية', 'بطاقة', 'التعريف الوطنية', '14433533', 'النقب', 'الكثيري', 'الاسم', 'ناصر', 'بن', 'كمال', 'بن', 'علي', '12', 'جوان', '2003', 'كاتيا', 'زهرة', 'مدين']
+INFO:ocr_app.views:Detected text: ['0', 'suppr', 'unser', '-', 'الجمهو الله التو نسية', 'بطاقة التعريف الوطنية', '14433533', 'النقب الكثيري', 'الاسم ناصر', 'بن كمال بن علي', '12 جوان 2003', 'كاتيا زهرة مدين', '0', 'suppr', 'unser', '-', 'الجمهو', 'الله', 'التو', 'نسية', 'بطاقة', 'التعريف الوطنية', '14433533', 'النقب', 'الكثيري', 'الاسم', 'ناصر', 'بن', 'كمال', 'بن', 'علي', '12', 'جوان', '2003', 'كاتيا', 'زهرة', 'مدين']
+INFO:ocr_app.views:Detected text: ['0', 'suppr', 'unser', '-', 'الجمهو الله التو نسية', 'بطاقة التعريف الوطنية', '14433533', 'النقب الكثيري', 'الاسم ناصر', 'بن كمال بن علي', '12 جوان 2003', 'كاتيا زهرة مدين', '0', 'suppr', 'unser', '-', 'الجمهو', 'الله', 'التو', 'نسية', 'بطاقة', 'التعريف الوطنية', '14433533', 'النقب', 'الكثيري', 'الاسم', 'ناصر', 'بن', 'كمال', 'بن', 'علي', '12', 'جوان', '2003', 'كاتيا', 'زهرة', 'مدين']
+INFO:ocr_app.views:Extracted data: {'identity_card': {'country': 'Tunisian Republic', 'type': 'National Identity Card', 'id_number': '14433533', 'last_name': 'El Kathiri', 'first_name': 'Nasser', 'father_name': 'Ben Kamal Ben Ali', 'date_of_birth': '2003-06-12', 'place_of_birth': 'Katia Zahra Madin', 'issue_date': None, 'expiry_date': None, 'face_detected': 'No'}}
+INFO:ocr_app.views:Extracted data: {'identity_card': {'country': 'Tunisian Republic', 'type': 'National Identity Card', 'id_number': '14433533', 'last_name': 'Al Kathiri', 'first_name': 'Nasser', 'father_name': 'Ben Kamal Ben Ali', 'date_of_birth': '2003-06-12', 'place_of_birth': 'Katia Zahra Madin', 'issue_date': None, 'expiry_date': None, 'face_detected': 'No'}}
+INFO:ocr_app.views:Extracted data: {'identity_card': {'country': 'Tunisian Republic', 'type': 'National Identity Card', 'id_number': '14433533', 'last_name': 'El Kathiri', 'first_name': 'Nasser', 'father_name': 'Ben Kamal Ben Ali', 'date_of_birth': '2003-06-12', 'place_of_birth': 'Katia Zahra Madin', 'issue_date': None, 'expiry_date': None, 'face_detected': 'No'}}
+INFO:ocr_app.views:Similarity score: None
+INFO:ocr_app.views:Similarity score: None
+INFO:ocr_app.views:Similarity score: None
+WARNING:django.request:Bad Request: /ocr/publish-event/
+WARNING:django.request:Bad Request: /ocr/publish-event/
+WARNING:django.request:Bad Request: /ocr/publish-event/
+INFO:django.utils.autoreload:/app/ocr_app/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:root:Image uploaded successfully: id_front_1750169997502.jpg
+INFO:django.utils.autoreload:/app/ocr_app/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr_app/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:root:Image uploaded successfully: id_front_1750170052641.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Verified
+INFO:ocr_app.views:Detected text: ['ctrl', 'inser', 'suppr', 'fin', 'الجمهو رية التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ثامر', 'بن كمال بن علي', 'تاريخ الولادة 12 جوان 2003', 'مكانها زهرة مدين', 'ctrl', 'inser', 'suppr', 'fin', 'الجمهو', 'رية', 'التونسية', 'بطاقة', 'التعريف الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ثامر', 'بن', 'كمال', 'بن', 'علي', 'تاريخ الولادة', '12', 'جوان', '2003', 'مكانها', 'زهرة', 'مدين']
+INFO:ocr_app.views:Detected text: ['ctrl', 'inser', 'suppr', 'fin', 'الجمهو رية التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ثامر', 'بن كمال بن علي', 'تاريخ الولادة 12 جوان 2003', 'مكانها زهرة مدين', 'ctrl', 'inser', 'suppr', 'fin', 'الجمهو', 'رية', 'التونسية', 'بطاقة', 'التعريف الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ثامر', 'بن', 'كمال', 'بن', 'علي', 'تاريخ الولادة', '12', 'جوان', '2003', 'مكانها', 'زهرة', 'مدين']
+INFO:ocr_app.views:Extracted data: {'identity_card': {'country': 'Tunisian Republic', 'type': 'National Identity Card', 'id_number': '14433533', 'last_name': 'El Kathiri', 'first_name': 'Thamer', 'father_name': 'Ben Kamel Ben Ali', 'date_of_birth': '2003-06-12', 'place_of_birth': 'Zahra Medin', 'issue_date': None, 'expiry_date': None, 'face_detected': 'No'}}
+INFO:ocr_app.views:Extracted data: {'identity_card': {'country': 'Tunisian Republic', 'type': 'National Identity Card', 'id_number': '14433533', 'last_name': 'El Kathiri', 'first_name': 'Thamer', 'father_name': 'Ben Kamel Ben Ali', 'date_of_birth': '2003-06-12', 'place_of_birth': 'Zahra Medin', 'issue_date': None, 'expiry_date': None, 'face_detected': 'No'}}
+INFO:ocr_app.views:Similarity score: None
+INFO:ocr_app.views:Similarity score: None
+WARNING:django.request:Bad Request: /ocr/publish-event/
+WARNING:django.request:Bad Request: /ocr/publish-event/
+INFO:ocr_app.views:Detected text: ['ctrl', 'inser', 'suppr', 'fin', 'الجمهو رية التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ثامر', 'بن كمال بن علي', 'تاريخ الولادة 12 جوان 2003', 'مكانها زهرة مدين', 'ctrl', 'inser', 'suppr', 'fin', 'الجمهو', 'رية', 'التونسية', 'بطاقة', 'التعريف الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ثامر', 'بن', 'كمال', 'بن', 'علي', 'تاريخ الولادة', '12', 'جوان', '2003', 'مكانها', 'زهرة', 'مدين']
+INFO:ocr_app.views:Extracted data: {'identity_card': {'country': 'Tunisian Republic', 'type': 'National Identity Card', 'id_number': '14433533', 'last_name': 'El Kathiri', 'first_name': 'Thamer', 'father_name': 'Ben Kamel Ben Ali', 'date_of_birth': '2003-06-12', 'place_of_birth': 'Zahra Medin', 'issue_date': None, 'expiry_date': None, 'face_detected': 'No'}}
+INFO:ocr_app.views:Similarity score: None
+WARNING:django.request:Bad Request: /ocr/publish-event/
+INFO:django.utils.autoreload:/app/ocr_app/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:ocr_app.views:Detected text: ['ctrl', 'inser', 'suppr', 'fin', 'الجمهو رية التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ثامر', 'بن كمال بن علي', 'تاريخ الولادة 12 جوان 2003', 'مكانها زهرة مدين', 'ctrl', 'inser', 'suppr', 'fin', 'الجمهو', 'رية', 'التونسية', 'بطاقة', 'التعريف الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ثامر', 'بن', 'كمال', 'بن', 'علي', 'تاريخ الولادة', '12', 'جوان', '2003', 'مكانها', 'زهرة', 'مدين']
+INFO:ocr_app.views:Detected text: ['ctrl', 'inser', 'suppr', 'fin', 'الجمهو رية التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ثامر', 'بن كمال بن علي', 'تاريخ الولادة 12 جوان 2003', 'مكانها زهرة مدين', 'ctrl', 'inser', 'suppr', 'fin', 'الجمهو', 'رية', 'التونسية', 'بطاقة', 'التعريف الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ثامر', 'بن', 'كمال', 'بن', 'علي', 'تاريخ الولادة', '12', 'جوان', '2003', 'مكانها', 'زهرة', 'مدين']
+INFO:ocr_app.views:Detected text: ['ctrl', 'inser', 'suppr', 'fin', 'الجمهو رية التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ثامر', 'بن كمال بن علي', 'تاريخ الولادة 12 جوان 2003', 'مكانها زهرة مدين', 'ctrl', 'inser', 'suppr', 'fin', 'الجمهو', 'رية', 'التونسية', 'بطاقة', 'التعريف الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ثامر', 'بن', 'كمال', 'بن', 'علي', 'تاريخ الولادة', '12', 'جوان', '2003', 'مكانها', 'زهرة', 'مدين']
+INFO:ocr_app.views:Extracted data: {'identity_card': {'country': 'Tunisian Republic', 'type': 'National Identity Card', 'id_number': '14433533', 'last_name': 'El Kathiri', 'first_name': 'Thamer', 'father_name': 'Ben Kamal Ben Ali', 'date_of_birth': '2003-06-12', 'place_of_birth': 'Zahra Medin', 'issue_date': None, 'expiry_date': None, 'face_detected': 'No'}}
+INFO:ocr_app.views:Extracted data: {'identity_card': {'country': 'Tunisian Republic', 'type': 'National Identity Card', 'id_number': '14433533', 'last_name': 'El Kathiri', 'first_name': 'Thamer', 'father_name': 'Ben Kamel Ben Ali', 'date_of_birth': '2003-06-12', 'place_of_birth': 'Zahra Medin', 'issue_date': None, 'expiry_date': None, 'face_detected': 'No'}}
+INFO:ocr_app.views:Extracted data: {'identity_card': {'country': 'Tunisian Republic', 'type': 'National Identity Card', 'id_number': '14433533', 'last_name': 'El Kathiri', 'first_name': 'Thamer', 'father_name': 'Ben Kamel Ben Ali', 'date_of_birth': '2003-06-12', 'place_of_birth': 'Zahra Medin', 'issue_date': None, 'expiry_date': None, 'face_detected': 'No'}}
+INFO:ocr_app.views:Similarity score: None
+INFO:ocr_app.views:Similarity score: None
+INFO:ocr_app.views:Similarity score: None
+WARNING:django.request:Bad Request: /ocr/publish-event/
+WARNING:django.request:Bad Request: /ocr/publish-event/
+WARNING:django.request:Bad Request: /ocr/publish-event/
+INFO:django.utils.autoreload:/app/ocr_app/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:ocr_app.views:Detected text: ['ctrl', 'inser', 'suppr', 'fin', 'الجمهو رية التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ثامر', 'بن كمال بن علي', 'تاريخ الولادة 12 جوان 2003', 'مكانها زهرة مدين', 'ctrl', 'inser', 'suppr', 'fin', 'الجمهو', 'رية', 'التونسية', 'بطاقة', 'التعريف الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ثامر', 'بن', 'كمال', 'بن', 'علي', 'تاريخ الولادة', '12', 'جوان', '2003', 'مكانها', 'زهرة', 'مدين']
+INFO:ocr_app.views:Detected text: ['ctrl', 'inser', 'suppr', 'fin', 'الجمهو رية التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ثامر', 'بن كمال بن علي', 'تاريخ الولادة 12 جوان 2003', 'مكانها زهرة مدين', 'ctrl', 'inser', 'suppr', 'fin', 'الجمهو', 'رية', 'التونسية', 'بطاقة', 'التعريف الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ثامر', 'بن', 'كمال', 'بن', 'علي', 'تاريخ الولادة', '12', 'جوان', '2003', 'مكانها', 'زهرة', 'مدين']
+INFO:ocr_app.views:Detected text: ['ctrl', 'inser', 'suppr', 'fin', 'الجمهو رية التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ثامر', 'بن كمال بن علي', 'تاريخ الولادة 12 جوان 2003', 'مكانها زهرة مدين', 'ctrl', 'inser', 'suppr', 'fin', 'الجمهو', 'رية', 'التونسية', 'بطاقة', 'التعريف الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ثامر', 'بن', 'كمال', 'بن', 'علي', 'تاريخ الولادة', '12', 'جوان', '2003', 'مكانها', 'زهرة', 'مدين']
+INFO:ocr_app.views:Similarity score: None
+INFO:ocr_app.views:Similarity score: None
+INFO:ocr_app.views:Similarity score: None
+WARNING:django.request:Bad Request: /ocr/publish-event/
+WARNING:django.request:Bad Request: /ocr/publish-event/
+WARNING:django.request:Bad Request: /ocr/publish-event/
+INFO:django.utils.autoreload:/app/ocr_app/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr_app/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:ocr_app.views:Detected text: ['ctrl', 'inser', 'suppr', 'fin', 'الجمهو رية التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ثامر', 'بن كمال بن علي', 'تاريخ الولادة 12 جوان 2003', 'مكانها زهرة مدين', 'ctrl', 'inser', 'suppr', 'fin', 'الجمهو', 'رية', 'التونسية', 'بطاقة', 'التعريف الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ثامر', 'بن', 'كمال', 'بن', 'علي', 'تاريخ الولادة', '12', 'جوان', '2003', 'مكانها', 'زهرة', 'مدين']
+INFO:ocr_app.views:Detected text: ['ctrl', 'inser', 'suppr', 'fin', 'الجمهو رية التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ثامر', 'بن كمال بن علي', 'تاريخ الولادة 12 جوان 2003', 'مكانها زهرة مدين', 'ctrl', 'inser', 'suppr', 'fin', 'الجمهو', 'رية', 'التونسية', 'بطاقة', 'التعريف الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ثامر', 'بن', 'كمال', 'بن', 'علي', 'تاريخ الولادة', '12', 'جوان', '2003', 'مكانها', 'زهرة', 'مدين']
+INFO:ocr_app.views:Detected text: ['ctrl', 'inser', 'suppr', 'fin', 'الجمهو رية التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ثامر', 'بن كمال بن علي', 'تاريخ الولادة 12 جوان 2003', 'مكانها زهرة مدين', 'ctrl', 'inser', 'suppr', 'fin', 'الجمهو', 'رية', 'التونسية', 'بطاقة', 'التعريف الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ثامر', 'بن', 'كمال', 'بن', 'علي', 'تاريخ الولادة', '12', 'جوان', '2003', 'مكانها', 'زهرة', 'مدين']
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 70, 'summary': "The first name matches exactly (Thamer). The last name has a slight difference ('El Kathiri' vs 'Kthiri'). The birthdate is missing in the profile data, which impacts the score. Other fields like address, phone, user_id, and timestamps are not comparable as they are not present in the identity card data. The country also differs slightly ('Tunisian Republic' vs 'Tunisia')."}
+INFO:ocr_app.views:Similarity score: 70
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 85, 'summary': "The profile data and identity card data are mostly similar. The first name matches exactly. The last name has a slight difference ('El Kathiri' vs 'Kthiri'). The birthdate is missing from the profile data, and the place of birth is not directly comparable to the address. Other fields in the profile data (address, phone, user_id, created_at, updated_at, type_profil) are not present in the identity card data and thus not comparable. Considering the name similarity and the lack of conflicting information, the similarity is high."}
+INFO:ocr_app.views:Similarity score: 85
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 70, 'summary': "The first name matches exactly. The last name has a slight difference ('El Kathiri' vs 'Kthiri'). The birthdate is missing in the profile data, which impacts the score. Other fields like address, phone, and user ID are not present in the identity card data, so they don't contribute to the similarity score. The country also differs slightly ('Tunisian Republic' vs 'Tunisia')."}
+INFO:ocr_app.views:Similarity score: 70
+INFO:pika.adapters.utils.connection_workflow:Pika version 1.3.2 connecting to ('34.196.5.176', 5671)
+INFO:pika.adapters.utils.connection_workflow:Pika version 1.3.2 connecting to ('34.196.5.176', 5671)
+INFO:pika.adapters.utils.io_services_utils:Socket connected: <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 35496), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:Socket connected: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 35502), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:SSL handshake completed successfully: <ssl.SSLSocket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 35496), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:SSL handshake completed successfully: <ssl.SSLSocket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 35502), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.connection_workflow:Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe52c02ce50>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe52c02ce50> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>).
+INFO:pika.adapters.utils.connection_workflow:Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe52c02c9a0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe52c02c9a0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>).
+INFO:pika.adapters.utils.connection_workflow:Pika version 1.3.2 connecting to ('34.196.5.176', 5671)
+INFO:pika.adapters.utils.connection_workflow:AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe52c02c9a0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.utils.connection_workflow:AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe52c02c9a0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.blocking_connection:Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe52c02c9a0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.blocking_connection:Created channel=1
+INFO:pika.adapters.utils.connection_workflow:AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe52c02ce50> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.utils.connection_workflow:AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe52c02ce50> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.blocking_connection:Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe52c02ce50> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.blocking_connection:Created channel=1
+INFO:pika.adapters.utils.io_services_utils:Socket connected: <socket.socket fd=30, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 35514), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:SSL handshake completed successfully: <ssl.SSLSocket fd=30, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 35514), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.connection_workflow:Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe52c04e700>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe52c04e700> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>).
+INFO:pika.adapters.blocking_connection:Closing connection (200): Normal shutdown
+INFO:pika.channel:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe52c02c9a0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>>
+INFO:pika.adapters.blocking_connection:Closing connection (200): Normal shutdown
+INFO:pika.channel:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe52c02ce50> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>>
+INFO:pika.channel:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe52c02c9a0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>>
+INFO:pika.connection:Closing connection (200): 'Normal shutdown'
+INFO:pika.channel:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe52c02ce50> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>>
+INFO:pika.connection:Closing connection (200): 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Aborting transport connection: state=1; <ssl.SSLSocket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 35502), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:_AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <ssl.SSLSocket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 35502), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:Deactivating transport: state=1; <ssl.SSLSocket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 35502), raddr=('34.196.5.176', 5671)>
+INFO:pika.connection:AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.connection:Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Closing transport socket and unlinking: state=3; <ssl.SSLSocket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 35502), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.blocking_connection:User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+INFO:pika.adapters.utils.io_services_utils:Aborting transport connection: state=1; <ssl.SSLSocket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 35496), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:_AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <ssl.SSLSocket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 35496), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:Deactivating transport: state=1; <ssl.SSLSocket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 35496), raddr=('34.196.5.176', 5671)>
+INFO:pika.connection:AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.connection:Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Closing transport socket and unlinking: state=3; <ssl.SSLSocket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 35496), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.blocking_connection:User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+INFO:pika.adapters.utils.connection_workflow:AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe52c04e700> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.utils.connection_workflow:AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe52c04e700> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.blocking_connection:Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe52c04e700> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.blocking_connection:Created channel=1
+INFO:pika.adapters.blocking_connection:Closing connection (200): Normal shutdown
+INFO:pika.channel:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe52c04e700> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>>
+INFO:pika.channel:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe52c04e700> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>>
+INFO:pika.connection:Closing connection (200): 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Aborting transport connection: state=1; <ssl.SSLSocket fd=30, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 35514), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:_AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <ssl.SSLSocket fd=30, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 35514), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:Deactivating transport: state=1; <ssl.SSLSocket fd=30, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 35514), raddr=('34.196.5.176', 5671)>
+INFO:pika.connection:AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.connection:Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Closing transport socket and unlinking: state=3; <ssl.SSLSocket fd=30, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 35514), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.blocking_connection:User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+INFO:root:Image uploaded successfully: id_front_1750171228289.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Not Verified
+INFO:root:Image uploaded successfully: id_front_1750171249255.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Not Verified
+INFO:root:Image uploaded successfully: id_front_1750171268956.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Not Verified
+INFO:root:Image uploaded successfully: id_front_1750171368473.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Verified
+INFO:ocr_app.views:Detected text: ['E', 'R', 'S', 'D', 'الجمهور رية التو نسية', 'بطاقة التعريف الوطنية', '02322249', 'اللقب الكثير ي', 'الاسم زينة بنت منصور بن كيلانى', 'حرم كمال الكثيري', 'تاريخ الولادة 25 ماي 1973', 'مكانها سيدي سليمان باجة', 'E', 'R', 'S', 'D', 'الجمهور', 'رية', 'التو', 'نسية', 'بطاقة', 'التعريف', 'الوطنية', '02322249', 'اللقب', 'الكثير', 'ي', 'الاسم', 'زينة', 'بنت', 'منصور', 'بن', 'كيلانى', 'حرم', 'كمال', 'الكثيري', 'تاريخ الولادة', '25', 'ماي', '1973', 'مكانها', 'سيدي', 'سليمان', 'باجة']
+INFO:ocr_app.views:Detected text: ['E', 'R', 'S', 'D', 'الجمهور رية التو نسية', 'بطاقة التعريف الوطنية', '02322249', 'اللقب الكثير ي', 'الاسم زينة بنت منصور بن كيلانى', 'حرم كمال الكثيري', 'تاريخ الولادة 25 ماي 1973', 'مكانها سيدي سليمان باجة', 'E', 'R', 'S', 'D', 'الجمهور', 'رية', 'التو', 'نسية', 'بطاقة', 'التعريف', 'الوطنية', '02322249', 'اللقب', 'الكثير', 'ي', 'الاسم', 'زينة', 'بنت', 'منصور', 'بن', 'كيلانى', 'حرم', 'كمال', 'الكثيري', 'تاريخ الولادة', '25', 'ماي', '1973', 'مكانها', 'سيدي', 'سليمان', 'باجة']
+INFO:ocr_app.views:Detected text: ['E', 'R', 'S', 'D', 'الجمهور رية التو نسية', 'بطاقة التعريف الوطنية', '02322249', 'اللقب الكثير ي', 'الاسم زينة بنت منصور بن كيلانى', 'حرم كمال الكثيري', 'تاريخ الولادة 25 ماي 1973', 'مكانها سيدي سليمان باجة', 'E', 'R', 'S', 'D', 'الجمهور', 'رية', 'التو', 'نسية', 'بطاقة', 'التعريف', 'الوطنية', '02322249', 'اللقب', 'الكثير', 'ي', 'الاسم', 'زينة', 'بنت', 'منصور', 'بن', 'كيلانى', 'حرم', 'كمال', 'الكثيري', 'تاريخ الولادة', '25', 'ماي', '1973', 'مكانها', 'سيدي', 'سليمان', 'باجة']
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 75, 'summary': "The first name has some differences in capitalization and ordering of names. The last name has a minor spelling variation ('El Kathiri' vs 'Alkthiri'). The birthdate is missing in the profile data, which impacts the score. Other fields like country seem consistent. Address and phone number are new information."}
+INFO:ocr_app.views:Similarity score: 75
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 75, 'summary': "The first name in the profile data 'zina bent mansour ben kilani' seems to be a combination of the first name and father's name from the identity card 'Zeina' and 'Bent Mansour Ben Kilani'. The last name 'Alkthiri' is a close match to 'El Kathiri'. The birthdate is missing from the profile data, which impacts the similarity score. The address and phone number are present in the profile data but not in the identity card, so they are not considered in the similarity score. The ID number from the identity card is not present in the profile data."}
+INFO:ocr_app.views:Similarity score: 75
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 75, 'summary': "The profile data shows a high degree of similarity to the identity card data. The last name 'Alkthiri' is similar to 'El Kathiri', and the first name 'zina bent mansour ben kilani' matches the first name and father's name in the identity card. The birthdate is missing from the profile data, which impacts the similarity score. Also, the first name in the profile data is a concatenation of the first name and father's name from the identity card, and there are slight spelling variations in the last name. The country also matches."}
+INFO:ocr_app.views:Similarity score: 75
+INFO:pika.adapters.utils.connection_workflow:Pika version 1.3.2 connecting to ('34.196.5.176', 5671)
+INFO:pika.adapters.utils.connection_workflow:Pika version 1.3.2 connecting to ('34.196.5.176', 5671)
+INFO:pika.adapters.utils.io_services_utils:Socket connected: <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 44164), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:Socket connected: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 44172), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:SSL handshake completed successfully: <ssl.SSLSocket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 44172), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:SSL handshake completed successfully: <ssl.SSLSocket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 44164), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.connection_workflow:Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514522a60>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514522a60> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>).
+INFO:pika.adapters.utils.connection_workflow:Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51455fee0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51455fee0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>).
+INFO:pika.adapters.utils.connection_workflow:AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514522a60> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.utils.connection_workflow:AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51455fee0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.utils.connection_workflow:AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514522a60> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.utils.connection_workflow:AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51455fee0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.blocking_connection:Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514522a60> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.blocking_connection:Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51455fee0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.blocking_connection:Created channel=1
+INFO:pika.adapters.blocking_connection:Created channel=1
+INFO:pika.adapters.utils.connection_workflow:Pika version 1.3.2 connecting to ('34.196.5.176', 5671)
+INFO:pika.adapters.blocking_connection:Closing connection (200): Normal shutdown
+INFO:pika.adapters.blocking_connection:Closing connection (200): Normal shutdown
+INFO:pika.channel:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514522a60> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>>
+INFO:pika.channel:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51455fee0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>>
+INFO:pika.adapters.utils.io_services_utils:Socket connected: <socket.socket fd=30, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 44186), raddr=('34.196.5.176', 5671)>
+INFO:pika.channel:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51455fee0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>>
+INFO:pika.connection:Closing connection (200): 'Normal shutdown'
+INFO:pika.channel:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514522a60> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>>
+INFO:pika.connection:Closing connection (200): 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:SSL handshake completed successfully: <ssl.SSLSocket fd=30, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 44186), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.connection_workflow:Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51450f9a0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51450f9a0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>).
+INFO:pika.adapters.utils.io_services_utils:Aborting transport connection: state=1; <ssl.SSLSocket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 44164), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:_AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <ssl.SSLSocket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 44164), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:Deactivating transport: state=1; <ssl.SSLSocket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 44164), raddr=('34.196.5.176', 5671)>
+INFO:pika.connection:AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.connection:Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Closing transport socket and unlinking: state=3; <ssl.SSLSocket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 44164), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:Aborting transport connection: state=1; <ssl.SSLSocket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 44172), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.blocking_connection:User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+INFO:pika.adapters.utils.io_services_utils:_AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <ssl.SSLSocket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 44172), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:Deactivating transport: state=1; <ssl.SSLSocket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 44172), raddr=('34.196.5.176', 5671)>
+INFO:pika.connection:AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.connection:Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Closing transport socket and unlinking: state=3; <ssl.SSLSocket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 44172), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.blocking_connection:User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+INFO:pika.adapters.utils.connection_workflow:AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51450f9a0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.utils.connection_workflow:AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51450f9a0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.blocking_connection:Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51450f9a0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.blocking_connection:Created channel=1
+INFO:pika.adapters.blocking_connection:Closing connection (200): Normal shutdown
+INFO:pika.channel:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51450f9a0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>>
+INFO:pika.channel:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51450f9a0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>>
+INFO:pika.connection:Closing connection (200): 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Aborting transport connection: state=1; <ssl.SSLSocket fd=30, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 44186), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:_AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <ssl.SSLSocket fd=30, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 44186), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:Deactivating transport: state=1; <ssl.SSLSocket fd=30, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 44186), raddr=('34.196.5.176', 5671)>
+INFO:pika.connection:AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.connection:Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Closing transport socket and unlinking: state=3; <ssl.SSLSocket fd=30, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 44186), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.blocking_connection:User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+INFO:ocr_app.views:Detected text: ['E', 'R', 'S', 'D', 'الجمهور رية التو نسية', 'بطاقة التعريف الوطنية', '02322249', 'اللقب الكثير ي', 'الاسم زينة بنت منصور بن كيلانى', 'حرم كمال الكثيري', 'تاريخ الولادة 25 ماي 1973', 'مكانها سيدي سليمان باجة', 'E', 'R', 'S', 'D', 'الجمهور', 'رية', 'التو', 'نسية', 'بطاقة', 'التعريف', 'الوطنية', '02322249', 'اللقب', 'الكثير', 'ي', 'الاسم', 'زينة', 'بنت', 'منصور', 'بن', 'كيلانى', 'حرم', 'كمال', 'الكثيري', 'تاريخ الولادة', '25', 'ماي', '1973', 'مكانها', 'سيدي', 'سليمان', 'باجة']
+INFO:ocr_app.views:Detected text: ['E', 'R', 'S', 'D', 'الجمهور رية التو نسية', 'بطاقة التعريف الوطنية', '02322249', 'اللقب الكثير ي', 'الاسم زينة بنت منصور بن كيلانى', 'حرم كمال الكثيري', 'تاريخ الولادة 25 ماي 1973', 'مكانها سيدي سليمان باجة', 'E', 'R', 'S', 'D', 'الجمهور', 'رية', 'التو', 'نسية', 'بطاقة', 'التعريف', 'الوطنية', '02322249', 'اللقب', 'الكثير', 'ي', 'الاسم', 'زينة', 'بنت', 'منصور', 'بن', 'كيلانى', 'حرم', 'كمال', 'الكثيري', 'تاريخ الولادة', '25', 'ماي', '1973', 'مكانها', 'سيدي', 'سليمان', 'باجة']
+INFO:ocr_app.views:Detected text: ['E', 'R', 'S', 'D', 'الجمهور رية التو نسية', 'بطاقة التعريف الوطنية', '02322249', 'اللقب الكثير ي', 'الاسم زينة بنت منصور بن كيلانى', 'حرم كمال الكثيري', 'تاريخ الولادة 25 ماي 1973', 'مكانها سيدي سليمان باجة', 'E', 'R', 'S', 'D', 'الجمهور', 'رية', 'التو', 'نسية', 'بطاقة', 'التعريف', 'الوطنية', '02322249', 'اللقب', 'الكثير', 'ي', 'الاسم', 'زينة', 'بنت', 'منصور', 'بن', 'كيلانى', 'حرم', 'كمال', 'الكثيري', 'تاريخ الولادة', '25', 'ماي', '1973', 'مكانها', 'سيدي', 'سليمان', 'باجة']
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 75, 'summary': "The last names 'El Kathiri' and 'Alkthiri' are similar but not identical. The first name in the identity card 'Zeina' matches a portion of the first name in the profile data 'zina bent mansour ben kilani'. The birthdate is missing in the profile data, making a direct comparison impossible. The profile includes additional address and contact information not present in the identity card data. The first name in the profile data contains the father's name, which is listed separately in the identity card."}
+INFO:ocr_app.views:Similarity score: 75
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 75, 'summary': "The last names 'El Kathiri' and 'Alkthiri' are similar but not identical. The first name in the identity card 'Zeina' is present in the profile data's first name 'zina bent mansour ben kilani', along with the father's name. The birthdate is missing in the profile data. The profile includes address and contact information not present in the identity card. Case differences exist in the names."}
+INFO:ocr_app.views:Similarity score: 75
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 75, 'summary': "The last names 'El Kathiri' and 'Alkthiri' are similar but not identical. The first name in the identity card 'Zeina' matches part of the first name in the profile data 'zina bent mansour ben kilani'. The birthdate is missing in the profile data, preventing a full comparison. The profile includes address and contact information not present in the identity card data. The first name in the profile data contains the father's name from the identity card."}
+INFO:ocr_app.views:Similarity score: 75
+INFO:pika.adapters.utils.connection_workflow:Pika version 1.3.2 connecting to ('34.196.5.176', 5671)
+INFO:pika.adapters.utils.io_services_utils:Socket connected: <socket.socket fd=23, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 33198), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.connection_workflow:Pika version 1.3.2 connecting to ('34.196.5.176', 5671)
+INFO:pika.adapters.utils.io_services_utils:SSL handshake completed successfully: <ssl.SSLSocket fd=23, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 33198), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.connection_workflow:Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514529f10>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514529f10> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>).
+INFO:pika.adapters.utils.io_services_utils:Socket connected: <socket.socket fd=27, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 33202), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:SSL handshake completed successfully: <ssl.SSLSocket fd=27, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 33202), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.connection_workflow:Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514522b20>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514522b20> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>).
+INFO:pika.adapters.utils.connection_workflow:AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514529f10> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.utils.connection_workflow:AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514529f10> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.blocking_connection:Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514529f10> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.blocking_connection:Created channel=1
+INFO:pika.adapters.utils.connection_workflow:AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514522b20> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.utils.connection_workflow:AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514522b20> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.blocking_connection:Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514522b20> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.blocking_connection:Created channel=1
+INFO:pika.adapters.blocking_connection:Closing connection (200): Normal shutdown
+INFO:pika.channel:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514529f10> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>>
+INFO:pika.channel:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514529f10> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>>
+INFO:pika.connection:Closing connection (200): 'Normal shutdown'
+INFO:pika.adapters.blocking_connection:Closing connection (200): Normal shutdown
+INFO:pika.channel:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514522b20> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>>
+INFO:pika.adapters.utils.io_services_utils:Aborting transport connection: state=1; <ssl.SSLSocket fd=23, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 33198), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:_AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <ssl.SSLSocket fd=23, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 33198), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:Deactivating transport: state=1; <ssl.SSLSocket fd=23, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 33198), raddr=('34.196.5.176', 5671)>
+INFO:pika.connection:AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.connection:Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Closing transport socket and unlinking: state=3; <ssl.SSLSocket fd=23, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 33198), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.blocking_connection:User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+INFO:pika.channel:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514522b20> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>>
+INFO:pika.connection:Closing connection (200): 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Aborting transport connection: state=1; <ssl.SSLSocket fd=27, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 33202), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:_AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <ssl.SSLSocket fd=27, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 33202), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:Deactivating transport: state=1; <ssl.SSLSocket fd=27, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 33202), raddr=('34.196.5.176', 5671)>
+INFO:pika.connection:AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.connection:Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Closing transport socket and unlinking: state=3; <ssl.SSLSocket fd=27, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 33202), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.blocking_connection:User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+INFO:pika.adapters.utils.connection_workflow:Pika version 1.3.2 connecting to ('34.196.5.176', 5671)
+INFO:pika.adapters.utils.io_services_utils:Socket connected: <socket.socket fd=25, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 33214), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:SSL handshake completed successfully: <ssl.SSLSocket fd=25, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 33214), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.connection_workflow:Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51457ceb0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51457ceb0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>).
+INFO:pika.adapters.utils.connection_workflow:AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51457ceb0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.utils.connection_workflow:AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51457ceb0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.blocking_connection:Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51457ceb0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.blocking_connection:Created channel=1
+INFO:pika.adapters.blocking_connection:Closing connection (200): Normal shutdown
+INFO:pika.channel:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51457ceb0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>>
+INFO:pika.channel:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51457ceb0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>>
+INFO:pika.connection:Closing connection (200): 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Aborting transport connection: state=1; <ssl.SSLSocket fd=25, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 33214), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:_AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <ssl.SSLSocket fd=25, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 33214), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:Deactivating transport: state=1; <ssl.SSLSocket fd=25, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 33214), raddr=('34.196.5.176', 5671)>
+INFO:pika.connection:AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.connection:Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Closing transport socket and unlinking: state=3; <ssl.SSLSocket fd=25, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 33214), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.blocking_connection:User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+INFO:root:Image uploaded successfully: id_front_1750172562729.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Verified
+INFO:ocr_app.views:Detected text: ['الجمهو رية التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ثامر', 'بن كمال بن علي', 'تاريخ الولادة 12 جوان 2003', 'مكاتها زهرة مدين', 'الجمهو', 'رية', 'التونسية', 'بطاقة', 'التعريف', 'الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ثامر', 'بن', 'كمال', 'بن', 'علي', 'تاريخ الولادة', '12', 'جوان', '2003', 'مكاتها', 'زهرة', 'مدين']
+INFO:ocr_app.views:Detected text: ['الجمهو رية التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ثامر', 'بن كمال بن علي', 'تاريخ الولادة 12 جوان 2003', 'مكاتها زهرة مدين', 'الجمهو', 'رية', 'التونسية', 'بطاقة', 'التعريف', 'الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ثامر', 'بن', 'كمال', 'بن', 'علي', 'تاريخ الولادة', '12', 'جوان', '2003', 'مكاتها', 'زهرة', 'مدين']
+INFO:ocr_app.views:Detected text: ['الجمهو رية التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ثامر', 'بن كمال بن علي', 'تاريخ الولادة 12 جوان 2003', 'مكاتها زهرة مدين', 'الجمهو', 'رية', 'التونسية', 'بطاقة', 'التعريف', 'الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ثامر', 'بن', 'كمال', 'بن', 'علي', 'تاريخ الولادة', '12', 'جوان', '2003', 'مكاتها', 'زهرة', 'مدين']
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 85, 'summary': 'The first name matches exactly (Thamer). The last name has a slight variation (El Kathiri vs Kthiri). The birthdate is missing from the profile data, so it could not be validated. Other fields like address and phone number are present in the profile data but not in the identity card data, so they could not be validated. The country matches (Tunisia vs Tunisian Republic).'}
+INFO:ocr_app.views:Similarity score: 85
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 75, 'summary': "The first name matches exactly (Thamer). The last name has a slight difference ('Al Kathiri' vs 'Kthiri'). The birthdate is missing in the profile data, which impacts the score. Other fields like address and phone number are present in the profile data but not in the identity card data, so they don't contribute to the similarity score in this comparison."}
+INFO:ocr_app.views:Similarity score: 75
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 85, 'summary': "The first name matches exactly. The last name has a slight difference ('Al Kathiri' vs 'Kthiri'). The country is Tunisia in both datasets. The birthdate is missing in the profile data, so it can't be compared. Other fields in the identity card are not present in the profile data. Address and phone number are only present in the profile data."}
+INFO:ocr_app.views:Similarity score: 85
+INFO:pika.adapters.utils.connection_workflow:Pika version 1.3.2 connecting to ('34.196.5.176', 5671)
+INFO:pika.adapters.utils.io_services_utils:Socket connected: <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 46156), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.connection_workflow:Pika version 1.3.2 connecting to ('34.196.5.176', 5671)
+INFO:pika.adapters.utils.io_services_utils:Socket connected: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 37314), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:SSL handshake completed successfully: <ssl.SSLSocket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 37314), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.connection_workflow:Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51450f730>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51450f730> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>).
+INFO:pika.adapters.utils.io_services_utils:SSL handshake completed successfully: <ssl.SSLSocket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 46156), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.connection_workflow:Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514529850>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514529850> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>).
+INFO:pika.adapters.utils.connection_workflow:AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51450f730> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.utils.connection_workflow:AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51450f730> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.blocking_connection:Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51450f730> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.blocking_connection:Created channel=1
+INFO:pika.adapters.utils.connection_workflow:AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514529850> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.utils.connection_workflow:AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514529850> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.blocking_connection:Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514529850> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.blocking_connection:Created channel=1
+INFO:pika.adapters.blocking_connection:Closing connection (200): Normal shutdown
+INFO:pika.channel:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51450f730> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>>
+INFO:pika.adapters.blocking_connection:Closing connection (200): Normal shutdown
+INFO:pika.channel:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514529850> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>>
+INFO:pika.channel:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe51450f730> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>>
+INFO:pika.connection:Closing connection (200): 'Normal shutdown'
+INFO:pika.adapters.utils.connection_workflow:Pika version 1.3.2 connecting to ('34.196.5.176', 5671)
+INFO:pika.adapters.utils.io_services_utils:Aborting transport connection: state=1; <ssl.SSLSocket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 37314), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:_AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <ssl.SSLSocket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 37314), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:Deactivating transport: state=1; <ssl.SSLSocket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 37314), raddr=('34.196.5.176', 5671)>
+INFO:pika.connection:AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.connection:Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Closing transport socket and unlinking: state=3; <ssl.SSLSocket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 37314), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.blocking_connection:User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+INFO:pika.adapters.utils.io_services_utils:Socket connected: <socket.socket fd=30, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 37326), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:SSL handshake completed successfully: <ssl.SSLSocket fd=30, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 37326), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.connection_workflow:Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe5147341c0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe5147341c0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>).
+INFO:pika.channel:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe514529850> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>>
+INFO:pika.connection:Closing connection (200): 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Aborting transport connection: state=1; <ssl.SSLSocket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 46156), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:_AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <ssl.SSLSocket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 46156), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:Deactivating transport: state=1; <ssl.SSLSocket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 46156), raddr=('34.196.5.176', 5671)>
+INFO:pika.connection:AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.connection:Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Closing transport socket and unlinking: state=3; <ssl.SSLSocket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 46156), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.blocking_connection:User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+INFO:pika.adapters.utils.connection_workflow:AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe5147341c0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.utils.connection_workflow:AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe5147341c0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.blocking_connection:Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe5147341c0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>
+INFO:pika.adapters.blocking_connection:Created channel=1
+INFO:pika.adapters.blocking_connection:Closing connection (200): Normal shutdown
+INFO:pika.channel:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe5147341c0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>>
+INFO:pika.channel:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncSSLTransport object at 0x7fe5147341c0> params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>>
+INFO:pika.connection:Closing connection (200): 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Aborting transport connection: state=1; <ssl.SSLSocket fd=30, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 37326), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:_AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <ssl.SSLSocket fd=30, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 37326), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.utils.io_services_utils:Deactivating transport: state=1; <ssl.SSLSocket fd=30, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 37326), raddr=('34.196.5.176', 5671)>
+INFO:pika.connection:AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.connection:Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Closing transport socket and unlinking: state=3; <ssl.SSLSocket fd=30, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 37326), raddr=('34.196.5.176', 5671)>
+INFO:pika.adapters.blocking_connection:User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<URLParameters host=possum.lmq.cloudamqp.com port=5671 virtual_host=dxapqekt ssl=True>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+INFO:django.utils.autoreload:/app/ocr_app/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:ocr_app.views:Detected text: ['الجمهو رية التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ثامر', 'بن كمال بن علي', 'تاريخ الولادة 12 جوان 2003', 'مكاتها زهرة مدين', 'الجمهو', 'رية', 'التونسية', 'بطاقة', 'التعريف', 'الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ثامر', 'بن', 'كمال', 'بن', 'علي', 'تاريخ الولادة', '12', 'جوان', '2003', 'مكاتها', 'زهرة', 'مدين']
+INFO:ocr_app.views:Detected text: ['الجمهو رية التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ثامر', 'بن كمال بن علي', 'تاريخ الولادة 12 جوان 2003', 'مكاتها زهرة مدين', 'الجمهو', 'رية', 'التونسية', 'بطاقة', 'التعريف', 'الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ثامر', 'بن', 'كمال', 'بن', 'علي', 'تاريخ الولادة', '12', 'جوان', '2003', 'مكاتها', 'زهرة', 'مدين']
+INFO:ocr_app.views:Detected text: ['الجمهو رية التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ثامر', 'بن كمال بن علي', 'تاريخ الولادة 12 جوان 2003', 'مكاتها زهرة مدين', 'الجمهو', 'رية', 'التونسية', 'بطاقة', 'التعريف', 'الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ثامر', 'بن', 'كمال', 'بن', 'علي', 'تاريخ الولادة', '12', 'جوان', '2003', 'مكاتها', 'زهرة', 'مدين']
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 80, 'summary': "The first name matches exactly. The last name has a slight difference ('El Kathiri' vs 'Kthiri'). The birthdate is not present in the profile data to compare. Other fields like address and phone number are not present in the identity card data. Overall, the core identity information is mostly consistent."}
+INFO:ocr_app.views:Similarity score: 80
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 75, 'summary': "The first name matches exactly. The last name has a slight difference ('Al Kathiri' vs 'Kthiri'). The birthdate is missing in the profile data, which impacts the score. Other fields like address and phone number are present in the profile data but not in the identity card data, so they don't contribute to the similarity score in this comparison."}
+INFO:ocr_app.views:Similarity score: 75
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 80, 'summary': "The first name matches exactly (Thamer). The last name has a slight variation (El Kathiri vs Kthiri). The birthdate is missing in the profile data, and the place of birth is also missing. Other fields like address and phone number are present in the profile data but not in the identity card data, so they don't contribute to the similarity score. The ID number is also missing from the profile data."}
+INFO:ocr_app.views:Similarity score: 80
+INFO:pika.adapters.utils.connection_workflow:Pika version 1.3.2 connecting to ('192.168.65.254', 5672)
+INFO:pika.adapters.utils.io_services_utils:Socket connected: <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 53768), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.connection_workflow:Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9e20fb2d30>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9e20fb2d30> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>).
+INFO:pika.adapters.utils.connection_workflow:AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9e20fb2d30> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.utils.connection_workflow:AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9e20fb2d30> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.blocking_connection:Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9e20fb2d30> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.blocking_connection:Created channel=1
+INFO:pika.adapters.blocking_connection:Closing connection (200): Normal shutdown
+INFO:pika.channel:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9e20fb2d30> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>>
+INFO:pika.channel:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9e20fb2d30> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>>
+INFO:pika.connection:Closing connection (200): 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Aborting transport connection: state=1; <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 53768), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.io_services_utils:_AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 53768), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.io_services_utils:Deactivating transport: state=1; <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 53768), raddr=('192.168.65.254', 5672)>
+INFO:pika.connection:AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.connection:Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Closing transport socket and unlinking: state=3; <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 53768), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.blocking_connection:User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+INFO:pika.adapters.utils.connection_workflow:Pika version 1.3.2 connecting to ('192.168.65.254', 5672)
+INFO:pika.adapters.utils.io_services_utils:Socket connected: <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 53772), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.connection_workflow:Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9e2069bd00>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9e2069bd00> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>).
+INFO:pika.adapters.utils.connection_workflow:AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9e2069bd00> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.utils.connection_workflow:AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9e2069bd00> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.blocking_connection:Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9e2069bd00> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.blocking_connection:Created channel=1
+INFO:pika.adapters.blocking_connection:Closing connection (200): Normal shutdown
+INFO:pika.channel:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9e2069bd00> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>>
+INFO:pika.channel:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9e2069bd00> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>>
+INFO:pika.connection:Closing connection (200): 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Aborting transport connection: state=1; <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 53772), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.io_services_utils:_AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 53772), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.io_services_utils:Deactivating transport: state=1; <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 53772), raddr=('192.168.65.254', 5672)>
+INFO:pika.connection:AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.connection:Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Closing transport socket and unlinking: state=3; <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 53772), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.blocking_connection:User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+INFO:pika.adapters.utils.connection_workflow:Pika version 1.3.2 connecting to ('192.168.65.254', 5672)
+INFO:pika.adapters.utils.io_services_utils:Socket connected: <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 53776), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.connection_workflow:Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9e2069bfa0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9e2069bfa0> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>).
+INFO:pika.adapters.utils.connection_workflow:AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9e2069bfa0> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.utils.connection_workflow:AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9e2069bfa0> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.blocking_connection:Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9e2069bfa0> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.blocking_connection:Created channel=1
+INFO:pika.adapters.blocking_connection:Closing connection (200): Normal shutdown
+INFO:pika.channel:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9e2069bfa0> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>>
+INFO:pika.channel:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f9e2069bfa0> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>>
+INFO:pika.connection:Closing connection (200): 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Aborting transport connection: state=1; <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 53776), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.io_services_utils:_AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 53776), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.io_services_utils:Deactivating transport: state=1; <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 53776), raddr=('192.168.65.254', 5672)>
+INFO:pika.connection:AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.connection:Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Closing transport socket and unlinking: state=3; <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 53776), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.blocking_connection:User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr_app/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr_app/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:root:Image uploaded successfully: id_front_1750237858594.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Not Verified
+INFO:root:Image uploaded successfully: id_front_1750237898780.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Not Verified
+INFO:root:Image uploaded successfully: id_front_1750237954148.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Not Verified
+INFO:root:Image uploaded successfully: id_front_1750238179224.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Not Verified
+INFO:root:Image uploaded successfully: id_front_1750238244154.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Verified
+INFO:root:Image uploaded successfully: id_front_1750238279167.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Not Verified
+INFO:django.utils.autoreload:/app/ocr_app/gemini_helper.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr_app/gemini_helper.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr_app/gemini_helper.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:root:Image uploaded successfully: id_front_1750238429389.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Not Verified
+INFO:django.utils.autoreload:/app/ocr_app/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:root:Image uploaded successfully: id_front_1750238524339.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Verified
+INFO:ocr_app.views:Detected text: ['1', '2', 'fin', '3', 'o', 'fin', 'inser', 'suppr', 'الجمهو رية التونسية', 'بطاقة التعريف الوطنية', '14433743', 'اللقب دلاعي', 'الاسم محمد أمين', 'بن هيكل بن محمد', 'تاريخ الولادة 23 فيفري 2003', 'مكانوا نابل', '1', '2', 'fin', '3', 'o', 'fin', 'inser', 'suppr', 'الجمهو', 'رية', 'التونسية', 'بطاقة', 'التعريف الوطنية', '14433743', 'اللقب', 'دلاعي', 'الاسم', 'محمد', 'أمين', 'بن', 'هيكل', 'بن', 'محمد', 'تاريخ الولادة', '23', 'فيفري', '2003', 'مكانوا', 'نابل']
+INFO:ocr_app.views:Detected text: ['1', '2', 'fin', '3', 'o', 'fin', 'inser', 'suppr', 'الجمهو رية التونسية', 'بطاقة التعريف الوطنية', '14433743', 'اللقب دلاعي', 'الاسم محمد أمين', 'بن هيكل بن محمد', 'تاريخ الولادة 23 فيفري 2003', 'مكانوا نابل', '1', '2', 'fin', '3', 'o', 'fin', 'inser', 'suppr', 'الجمهو', 'رية', 'التونسية', 'بطاقة', 'التعريف الوطنية', '14433743', 'اللقب', 'دلاعي', 'الاسم', 'محمد', 'أمين', 'بن', 'هيكل', 'بن', 'محمد', 'تاريخ الولادة', '23', 'فيفري', '2003', 'مكانوا', 'نابل']
+INFO:ocr_app.views:Detected text: ['1', '2', 'fin', '3', 'o', 'fin', 'inser', 'suppr', 'الجمهو رية التونسية', 'بطاقة التعريف الوطنية', '14433743', 'اللقب دلاعي', 'الاسم محمد أمين', 'بن هيكل بن محمد', 'تاريخ الولادة 23 فيفري 2003', 'مكانوا نابل', '1', '2', 'fin', '3', 'o', 'fin', 'inser', 'suppr', 'الجمهو', 'رية', 'التونسية', 'بطاقة', 'التعريف الوطنية', '14433743', 'اللقب', 'دلاعي', 'الاسم', 'محمد', 'أمين', 'بن', 'هيكل', 'بن', 'محمد', 'تاريخ الولادة', '23', 'فيفري', '2003', 'مكانوا', 'نابل']
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 90, 'summary': "The profile data mostly matches the identity card data. First name is an exact match. Last name has a minor spelling difference ('Delaai' vs 'Dellai'). The place of birth 'Nabeul' matches the city in the address. Date of birth is missing from the profile data, which slightly reduces the similarity score."}
+INFO:ocr_app.views:Similarity score: 90
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 90, 'summary': "The profile data mostly matches the identity card data. First name is an exact match. Last name has a minor spelling difference ('Delaai' vs 'Dellai'). The place of birth 'Nabeul' is present in the address. The birthdate is missing from the profile data, which slightly reduces the similarity score."}
+INFO:ocr_app.views:Similarity score: 90
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 90, 'summary': "The profile data matches the identity card data with a high degree of accuracy. The first name 'Mohamed Amine' is an exact match. The last name has a slight difference ('Delaai' vs 'Dellai'), which could be a transcription error. The place of birth 'Nabeul' matches the city in the address. The birthdate is missing from the profile data, which slightly reduces the similarity score. The country also matches (Tunisia vs Tunisian Republic). Other fields in the profile data (address, phone, user_id, timestamps, type_profil) are not present in the identity card and therefore do not affect the similarity score."}
+INFO:ocr_app.views:Similarity score: 90
+INFO:pika.adapters.utils.connection_workflow:Pika version 1.3.2 connecting to ('192.168.65.254', 5672)
+INFO:pika.adapters.utils.io_services_utils:Socket connected: <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.3', 54916), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.connection_workflow:Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fee80239460>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fee80239460> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>).
+INFO:pika.adapters.utils.connection_workflow:AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fee80239460> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.utils.connection_workflow:AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fee80239460> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.blocking_connection:Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fee80239460> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.blocking_connection:Created channel=1
+INFO:pika.adapters.blocking_connection:Closing connection (200): Normal shutdown
+INFO:pika.channel:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fee80239460> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>>
+INFO:pika.channel:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fee80239460> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>>
+INFO:pika.connection:Closing connection (200): 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Aborting transport connection: state=1; <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.3', 54916), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.io_services_utils:_AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.3', 54916), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.io_services_utils:Deactivating transport: state=1; <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.3', 54916), raddr=('192.168.65.254', 5672)>
+INFO:pika.connection:AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.connection:Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Closing transport socket and unlinking: state=3; <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.3', 54916), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.blocking_connection:User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+INFO:pika.adapters.utils.connection_workflow:Pika version 1.3.2 connecting to ('192.168.65.254', 5672)
+INFO:pika.adapters.utils.io_services_utils:Socket connected: <socket.socket fd=23, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.3', 54930), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.connection_workflow:Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fee802c1730>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fee802c1730> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>).
+INFO:pika.adapters.utils.connection_workflow:AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fee802c1730> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.utils.connection_workflow:AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fee802c1730> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.blocking_connection:Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fee802c1730> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.blocking_connection:Created channel=1
+INFO:pika.adapters.blocking_connection:Closing connection (200): Normal shutdown
+INFO:pika.channel:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fee802c1730> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>>
+INFO:pika.channel:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fee802c1730> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>>
+INFO:pika.connection:Closing connection (200): 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Aborting transport connection: state=1; <socket.socket fd=23, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.3', 54930), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.io_services_utils:_AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=23, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.3', 54930), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.io_services_utils:Deactivating transport: state=1; <socket.socket fd=23, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.3', 54930), raddr=('192.168.65.254', 5672)>
+INFO:pika.connection:AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.connection:Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Closing transport socket and unlinking: state=3; <socket.socket fd=23, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.3', 54930), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.blocking_connection:User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+INFO:pika.adapters.utils.connection_workflow:Pika version 1.3.2 connecting to ('192.168.65.254', 5672)
+INFO:pika.adapters.utils.io_services_utils:Socket connected: <socket.socket fd=24, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.3', 54940), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.connection_workflow:Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fee802c1a00>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fee802c1a00> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>).
+INFO:pika.adapters.utils.connection_workflow:AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fee802c1a00> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.utils.connection_workflow:AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fee802c1a00> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.blocking_connection:Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fee802c1a00> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.blocking_connection:Created channel=1
+INFO:pika.adapters.blocking_connection:Closing connection (200): Normal shutdown
+INFO:pika.channel:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fee802c1a00> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>>
+INFO:pika.channel:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fee802c1a00> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>>
+INFO:pika.connection:Closing connection (200): 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Aborting transport connection: state=1; <socket.socket fd=24, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.3', 54940), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.io_services_utils:_AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=24, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.3', 54940), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.io_services_utils:Deactivating transport: state=1; <socket.socket fd=24, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.3', 54940), raddr=('192.168.65.254', 5672)>
+INFO:pika.connection:AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.connection:Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Closing transport socket and unlinking: state=3; <socket.socket fd=24, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.3', 54940), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.blocking_connection:User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+INFO:root:Image uploaded successfully: id_front_1750243326636.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Verified
+INFO:ocr_app.views:Detected text: ['Q', 'S', 'D', 'W', 'X', 'C', 'alt', 'الجمهورة التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ناصر', 'بن كمال بن على', 'تاريخ الولامة 12 جوان 2003', 'تكابا زهرة مدين', 'Q', 'S', 'D', 'W', 'X', 'C', 'alt', 'الجمهورة التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ناصر', 'بن', 'كمال', 'بن', 'على', 'تاريخ الولامة', '12', 'جوان', '2003', 'تكابا', 'زهرة', 'مدين']
+INFO:ocr_app.views:Detected text: ['Q', 'S', 'D', 'W', 'X', 'C', 'alt', 'الجمهورة التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ناصر', 'بن كمال بن على', 'تاريخ الولامة 12 جوان 2003', 'تكابا زهرة مدين', 'Q', 'S', 'D', 'W', 'X', 'C', 'alt', 'الجمهورة التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ناصر', 'بن', 'كمال', 'بن', 'على', 'تاريخ الولامة', '12', 'جوان', '2003', 'تكابا', 'زهرة', 'مدين']
+INFO:ocr_app.views:Detected text: ['Q', 'S', 'D', 'W', 'X', 'C', 'alt', 'الجمهورة التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ناصر', 'بن كمال بن على', 'تاريخ الولامة 12 جوان 2003', 'تكابا زهرة مدين', 'Q', 'S', 'D', 'W', 'X', 'C', 'alt', 'الجمهورة التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ناصر', 'بن', 'كمال', 'بن', 'على', 'تاريخ الولامة', '12', 'جوان', '2003', 'تكابا', 'زهرة', 'مدين']
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 30, 'summary': "The first name and last name have low similarity. The last names 'Al Kathiri' and 'Kthiri' are similar but not identical. The first names 'Nasser' and 'Thamer' are different. The country matches (Tunisia/Tunisian Republic). The date of birth and place of birth are missing in the profile data. The ID number is also missing. Address and phone number are present in the profile data but not in the identity card data, so they cannot be compared."}
+INFO:ocr_app.views:Similarity score: 30
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 30, 'summary': "The first name and last name have low similarity. The last names 'Al Kathiri' and 'Kthiri' are similar but not identical. The first names 'Nasser' and 'Thamer' are different. The date of birth and place of birth are not present in the profile data. The ID number is also missing. Address and phone number are present only in the profile data. Overall, the similarity is low."}
+INFO:ocr_app.views:Similarity score: 30
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 30, 'summary': "The first name and last name have low similarity. The last names 'Al Kathiri' and 'Kthiri' are similar but not identical. The first names 'Nasser' and 'Thamer' are different. The country of origin matches (Tunisia/Tunisian Republic). The date of birth and place of birth are not present in the profile data, and the ID number is also missing. Other fields like address and phone number are present in the profile data but not in the identity card data, so they cannot be compared."}
+INFO:ocr_app.views:Similarity score: 30
+WARNING:django.request:Bad Request: /ocr/publish-event/
+WARNING:django.request:Bad Request: /ocr/publish-event/
+WARNING:django.request:Bad Request: /ocr/publish-event/
+INFO:ocr_app.views:Detected text: ['Q', 'S', 'D', 'W', 'X', 'C', 'alt', 'الجمهورة التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ناصر', 'بن كمال بن على', 'تاريخ الولامة 12 جوان 2003', 'تكابا زهرة مدين', 'Q', 'S', 'D', 'W', 'X', 'C', 'alt', 'الجمهورة التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ناصر', 'بن', 'كمال', 'بن', 'على', 'تاريخ الولامة', '12', 'جوان', '2003', 'تكابا', 'زهرة', 'مدين']
+INFO:ocr_app.views:Detected text: ['Q', 'S', 'D', 'W', 'X', 'C', 'alt', 'الجمهورة التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ناصر', 'بن كمال بن على', 'تاريخ الولامة 12 جوان 2003', 'تكابا زهرة مدين', 'Q', 'S', 'D', 'W', 'X', 'C', 'alt', 'الجمهورة التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ناصر', 'بن', 'كمال', 'بن', 'على', 'تاريخ الولامة', '12', 'جوان', '2003', 'تكابا', 'زهرة', 'مدين']
+INFO:ocr_app.views:Detected text: ['Q', 'S', 'D', 'W', 'X', 'C', 'alt', 'الجمهورة التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ناصر', 'بن كمال بن على', 'تاريخ الولامة 12 جوان 2003', 'تكابا زهرة مدين', 'Q', 'S', 'D', 'W', 'X', 'C', 'alt', 'الجمهورة التونسية', 'بطاقة التعريف الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ناصر', 'بن', 'كمال', 'بن', 'على', 'تاريخ الولامة', '12', 'جوان', '2003', 'تكابا', 'زهرة', 'مدين']
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 30, 'summary': "The first name and last name have some similarity but are not exact matches. The identity card indicates 'Nasser Al Kathiri' while the profile shows 'Thamer Kthiri'. The birthdate and ID number from the identity card are not present in the profile data. Address information is also missing from the identity card. Therefore, the overall similarity is low."}
+INFO:ocr_app.views:Similarity score: 30
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 30, 'summary': "The first name and last name have low similarity. The last names 'Al Kathiri' and 'Kthiri' are similar but not identical. The first names 'Nasser' and 'Thamer' are completely different. The country matches (Tunisia/Tunisian Republic). The date of birth and place of birth are missing from the profile data. The ID number is also missing from the profile data."}
+INFO:ocr_app.views:Similarity score: 30
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 30, 'summary': "The first name and last name have some similarity but are not exact matches. The identity card data indicates 'Nasser Al Kathiri', while the profile data shows 'Thamer Kthiri'. The last names share a similar root but have different spellings. The first names are completely different. Other fields like date of birth and place of birth are not present in the profile data for comparison. Address information is available in the profile but not in the identity card."}
+INFO:ocr_app.views:Similarity score: 30
+WARNING:django.request:Bad Request: /ocr/publish-event/
+WARNING:django.request:Bad Request: /ocr/publish-event/
+WARNING:django.request:Bad Request: /ocr/publish-event/
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr/settings.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr/settings.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr/settings.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr/settings.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr/settings.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr/settings.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr/settings.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr/settings.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr_app/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/app/ocr_app/views.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:root:Image uploaded successfully: id_front_1750367700055.jpg
+INFO:root:Image uploaded successfully: id_front_1750367802969.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Verified
+INFO:ocr_app.views:Detected text: ['الجمهو رية التو نسية', 'بطاقة التعريف ال الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ثامر', 'بن كمال بن علي', 'تاريخ الولادة 12 جوان 2003', 'مكانها زهرة مدين', 'الجمهو', 'رية', 'التو', 'نسية', 'بطاقة', 'التعريف ال', 'الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ثامر', 'بن', 'كمال', 'بن', 'علي', 'تاريخ الولادة', '12', 'جوان', '2003', 'مكانها', 'زهرة', 'مدين']
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 75, 'summary': "The first name matches exactly (Thamer). The last name has a slight variation (El Kathiri vs Al kthiri), which is likely a transliteration difference. The birthdate is missing in the profile data, which reduces the similarity score. Other fields like address and phone number are present in the profile but not in the identity card, and vice versa, so they don't contribute to the similarity score. The father's name and place of birth are also missing from the profile data."}
+INFO:ocr_app.views:Similarity score: 75
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Not Verified
+INFO:ocr_app.views:Detected text: Error extracting text from image: Connection was closed before we received a valid response from endpoint URL: "https://rekognition.us-east-1.amazonaws.com/".
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 0, 'summary': 'The identity_card data is completely empty (all null values) and lacks any matching information with the profile data. Therefore, the similarity score is 0.'}
+INFO:ocr_app.views:Similarity score: 0
+WARNING:django.request:Bad Request: /ocr/publish-event/
+INFO:ocr_app.views:Detected text: Error extracting text from image: Read timeout on endpoint URL: "https://rekognition.us-east-1.amazonaws.com/"
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 0, 'summary': 'The identity_card data is completely empty (all null values) and lacks any identifying information to compare with the profile data. Therefore, the similarity score is 0.'}
+INFO:ocr_app.views:Similarity score: 0
+INFO:ocr_app.views:Detected text: ['الجمهو رية التو نسية', 'بطاقة التعريف ال الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ثامر', 'بن كمال بن علي', 'تاريخ الولادة 12 جوان 2003', 'مكانها زهرة مدين', 'الجمهو', 'رية', 'التو', 'نسية', 'بطاقة', 'التعريف ال', 'الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ثامر', 'بن', 'كمال', 'بن', 'علي', 'تاريخ الولادة', '12', 'جوان', '2003', 'مكانها', 'زهرة', 'مدين']
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 90, 'summary': "The profile data matches the identity card data with a high degree of accuracy. The first name and last name are nearly identical, with a minor case difference in the last name ('Al Kathiri' vs 'Al kthiri'). The date of birth is missing from the profile data, which slightly reduces the similarity score. Other fields like address and phone number are not present in the identity card and therefore do not contribute to the similarity comparison."}
+INFO:ocr_app.views:Similarity score: 90
+WARNING:django.request:Bad Request: /ocr/publish-event/
+INFO:ocr_app.views:Detected text: ['الجمهو رية التو نسية', 'بطاقة التعريف ال الوطنية', '14433533', 'اللقب الكثيري', 'الاسم ثامر', 'بن كمال بن علي', 'تاريخ الولادة 12 جوان 2003', 'مكانها زهرة مدين', 'الجمهو', 'رية', 'التو', 'نسية', 'بطاقة', 'التعريف ال', 'الوطنية', '14433533', 'اللقب', 'الكثيري', 'الاسم', 'ثامر', 'بن', 'كمال', 'بن', 'علي', 'تاريخ الولادة', '12', 'جوان', '2003', 'مكانها', 'زهرة', 'مدين']
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 90, 'summary': "The profile data matches the identity card data with a high degree of accuracy. The first name and last name are consistent, with a minor difference in the capitalization of the last name ('Al Kathiri' vs. 'Al kthiri'). The birthdate is not present in the profile data, which slightly reduces the similarity score. Other profile details like address and phone number are not present in the identity card, so they are not considered in the similarity calculation."}
+INFO:ocr_app.views:Similarity score: 90
+INFO:ocr_app.views:Detected text: Error extracting text from image: Connection was closed before we received a valid response from endpoint URL: "https://rekognition.us-east-1.amazonaws.com/".
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 0, 'summary': 'The identity_card data is completely empty (all null values) and lacks any identifying information to compare with the profile data. Therefore, the similarity score is 0.'}
+INFO:ocr_app.views:Similarity score: 0
+WARNING:django.request:Bad Request: /ocr/publish-event/
+INFO:pika.adapters.utils.connection_workflow:Pika version 1.3.2 connecting to ('192.168.65.254', 5672)
+INFO:pika.adapters.utils.io_services_utils:Socket connected: <socket.socket fd=30, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 58812), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.connection_workflow:Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd02d015190>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd02d015190> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>).
+INFO:pika.adapters.utils.connection_workflow:AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd02d015190> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.utils.connection_workflow:AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd02d015190> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.blocking_connection:Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd02d015190> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.blocking_connection:Created channel=1
+INFO:pika.adapters.blocking_connection:Closing connection (200): Normal shutdown
+INFO:pika.channel:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd02d015190> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>>
+INFO:pika.channel:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd02d015190> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>>
+INFO:pika.connection:Closing connection (200): 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Aborting transport connection: state=1; <socket.socket fd=30, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 58812), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.io_services_utils:_AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=30, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 58812), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.io_services_utils:Deactivating transport: state=1; <socket.socket fd=30, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 58812), raddr=('192.168.65.254', 5672)>
+INFO:pika.connection:AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.connection:Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Closing transport socket and unlinking: state=3; <socket.socket fd=30, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 58812), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.blocking_connection:User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+INFO:ocr_app.views:Detected text: Error extracting text from image: Read timeout on endpoint URL: "https://rekognition.us-east-1.amazonaws.com/"
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 0, 'summary': 'The identity_card data is completely empty (all null values) and lacks any identifying information to compare with the profile data. Therefore, the similarity score is 0.'}
+INFO:ocr_app.views:Similarity score: 0
+WARNING:django.request:Bad Request: /ocr/publish-event/
+INFO:pika.adapters.utils.connection_workflow:Pika version 1.3.2 connecting to ('192.168.65.254', 5672)
+INFO:pika.adapters.utils.io_services_utils:Socket connected: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 48096), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.connection_workflow:Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd02cffa130>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd02cffa130> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>).
+INFO:pika.adapters.utils.connection_workflow:AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd02cffa130> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.utils.connection_workflow:AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd02cffa130> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.blocking_connection:Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd02cffa130> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.blocking_connection:Created channel=1
+INFO:pika.adapters.blocking_connection:Closing connection (200): Normal shutdown
+INFO:pika.channel:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd02cffa130> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>>
+INFO:pika.channel:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd02cffa130> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>>
+INFO:pika.connection:Closing connection (200): 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Aborting transport connection: state=1; <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 48096), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.io_services_utils:_AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 48096), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.io_services_utils:Deactivating transport: state=1; <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 48096), raddr=('192.168.65.254', 5672)>
+INFO:pika.connection:AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.connection:Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Closing transport socket and unlinking: state=3; <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 48096), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.blocking_connection:User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+INFO:pika.adapters.utils.connection_workflow:Pika version 1.3.2 connecting to ('192.168.65.254', 5672)
+INFO:pika.adapters.utils.io_services_utils:Socket connected: <socket.socket fd=23, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 58142), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.connection_workflow:Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd02cfbc250>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd02cfbc250> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>).
+INFO:pika.adapters.utils.connection_workflow:AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd02cfbc250> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.utils.connection_workflow:AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd02cfbc250> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.blocking_connection:Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd02cfbc250> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>
+INFO:pika.adapters.blocking_connection:Created channel=1
+INFO:pika.adapters.blocking_connection:Closing connection (200): Normal shutdown
+INFO:pika.channel:Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd02cfbc250> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>>
+INFO:pika.channel:Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd02cfbc250> params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>>
+INFO:pika.connection:Closing connection (200): 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Aborting transport connection: state=1; <socket.socket fd=23, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 58142), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.io_services_utils:_AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=23, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 58142), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.utils.io_services_utils:Deactivating transport: state=1; <socket.socket fd=23, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 58142), raddr=('192.168.65.254', 5672)>
+INFO:pika.connection:AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.connection:Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+INFO:pika.adapters.utils.io_services_utils:Closing transport socket and unlinking: state=3; <socket.socket fd=23, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.2', 58142), raddr=('192.168.65.254', 5672)>
+INFO:pika.adapters.blocking_connection:User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=host.docker.internal port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+INFO:ocr_app.views:Detected text: Error extracting text from image: Read timeout on endpoint URL: "https://rekognition.us-east-1.amazonaws.com/"
+INFO:ocr_app.views:Comparison Result: {'similarity_score': 0, 'summary': 'The identity_card data is completely empty (all null values) and lacks any identifying information to compare with the profile data. Therefore, the similarity score is 0.'}
+INFO:ocr_app.views:Similarity score: 0
+WARNING:django.request:Bad Request: /ocr/publish-event/
+INFO:root:Image uploaded successfully: id_front_1750368417470.jpg
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:root:Image uploaded successfully: id_front_1750368497407.jpg
+INFO:root:Data extracted from image.
+INFO:root:Data verification result: Verified
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
