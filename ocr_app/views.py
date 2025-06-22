@@ -534,7 +534,7 @@ def verify_data(keycloak_user, input_data):
 
     try:
         response = requests.get(
-            'http://192.168.1.120:8000/profile/profil/', 
+            'https://kong-7e283b39dauspilq0.kongcloud.dev/profile/profil/', 
             params={'user': keycloak_user}
         )
 
