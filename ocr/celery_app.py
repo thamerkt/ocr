@@ -1,6 +1,6 @@
 from celery import Celery
 
-app = Celery('scraper_app', broker='redis://host.docker.internal:6379')
+app = Celery('scraper_app', broker='redis://red-d1miasidbo4c73fbugg0:6379)
 
 # Optional: If you want to schedule tasks
 app.conf.beat_schedule = {
