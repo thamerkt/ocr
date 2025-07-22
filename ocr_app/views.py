@@ -366,15 +366,9 @@ def publish_identity_verification_event(request):
         # ======== Publish to RabbitMQ ============
         try:
             queue_name = 'identity_verification_queue'
-
-            connection = pika.BlockingConnection(
-                pika.ConnectionParameters(
-                    host='host.docker.internal',
-                    port=5672,
-                    heartbeat=600,
-                    blocked_connection_timeout=300
-                )
-            )
+            amqp_url = 'amqps://poqribhv:LzwYFbmBXeyiQI0GveEEe-YQyDeH126c@kebnekaise.lmq.cloudamqp.com/poqribhv'
+            parameters = pika.URLParameters(amqp_url)
+            connection = pika.BlockingConnection(parameters)
             channel = connection.channel()
             channel.queue_declare(queue=queue_name, durable=True)
             print(f"✅ Connected to RabbitMQ and declared queue '{queue_name}'")
