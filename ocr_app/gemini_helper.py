@@ -112,6 +112,7 @@ You are a data validation assistant. Compare two user profile datasets and deter
 
 ### Instructions:
 - Analyze all fields for correctness (e.g., name, birthdate, ID number, etc.).
+- only compare between the attribut first name and last name only and focus in some case there are a letter differnece and that's ok
 - Return a JSON with:
   - "similarity_score": number from 0 to 100.
   - "summary": short explanation of the differences or accuracy.
